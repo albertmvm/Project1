@@ -6,8 +6,8 @@ def main():
 
     nom = str(input("Posa el teu nom: "))
     cognom = str(input("Posa el teu cognom: "))
-    surname = str(input("Posa el teu segon cognom: "))
-    print("El teu nom és ", cognom[:2]+surname[:2]+nom[:2])
+    cognom2 = str(input("Posa el teu segon cognom: "))
+    print("El teu nom és ", cognom[:2]+cognom2[:2]+nom[:2])
 
 
 if __name__ == '__main__':
